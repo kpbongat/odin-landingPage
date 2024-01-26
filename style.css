@@ -1,27 +1,50 @@
-.header{
+.header-section{
     background-color: #1F2937;
-    padding: 0 100px;
 }
 
-body {
+body,ul {
     margin:0;
+    padding:0;
 }
 
 li{
     list-style: none;
 }
 
-ul{
-    padding-left:0;
-}
 
-.header-section .header {
+.header-section 
+.header,
+ul, 
+.content, 
+.hero {
     display:flex;
+
+}
+.header-section .header {
     justify-content: space-between;
     align-items: center;
 }
 
 .header-section ul {
-    display:flex;
     gap:20px;
+}
+
+.header-section .hero {
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.header-section .content{
+    gap: 20px;
+}
+.header-section .content div{
+    flex:1; 
+}
+
+.header-section .content .placeholder {
+    background-color: gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
