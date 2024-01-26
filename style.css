@@ -1,0 +1,27 @@
+.header{
+    background-color: #1F2937;
+    padding: 0 100px;
+}
+
+body {
+    margin:0;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding-left:0;
+}
+
+.header-section .header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section ul {
+    display:flex;
+    gap:20px;
+}
