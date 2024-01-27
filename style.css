@@ -8,6 +8,9 @@ body,ul,p {
     padding:0;
 }
 
+body {
+    height: 100vh;
+}
 li{
     list-style: none;
 }
@@ -85,4 +88,17 @@ ul,
 
 .quote-box div{
     text-align: right;
+}
+
+.sign-up-section,
+.call-to-action {
+    display: flex;
+}
+.sign-up-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-section .call-to-action {
+    flex-direction: column;
 }
