@@ -192,6 +192,9 @@ ul,
     border-radius: 10%;
 }
 
+.sign-up{
+    border-radius: 10px; 
+}
 .quote-box div{
     text-align: right;
 }
