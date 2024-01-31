@@ -32,6 +32,11 @@ body,ul,p {
     margin-bottom: 40px;
 }
 
+.quote-box{
+    padding:400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 li{
     list-style: none;
@@ -86,6 +91,8 @@ button {
 .media {
     color:gray;
 }
+
+
 .quote-box {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -165,11 +172,6 @@ ul,
     height:200px;
     border: 5px solid #3882f6;
     border-radius: 10%;
-}
-
-
-.quote-box p{
-    text-align: center;
 }
 
 .quote-box div{
