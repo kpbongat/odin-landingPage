@@ -49,6 +49,10 @@ body,ul,p {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.footer {
+    padding:50px;
+}
 li{
     list-style: none;
 }
