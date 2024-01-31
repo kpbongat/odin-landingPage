@@ -14,7 +14,7 @@ body,ul,p {
     padding-bottom: 160px;
 }
 
-.header-section header {
+.header-section .header {
     margin-bottom: 140px;
 }
 
@@ -32,9 +32,7 @@ body,ul,p {
     margin-bottom: 40px;
 }
 
-.media {
 
-}
 li{
     list-style: none;
 }
