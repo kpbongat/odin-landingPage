@@ -14,12 +14,26 @@ body,ul,p {
     padding-bottom: 160px;
 }
 
-.header {
+.header-section header {
     margin-bottom: 140px;
 }
 
 .hero {
     gap: 10px;
+}
+
+
+.info-section {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.info-section .header {
+    margin-bottom: 40px;
+}
+
+.media {
+
 }
 li{
     list-style: none;
@@ -137,17 +151,20 @@ ul,
 
 .info-list {
     justify-content: center;
+    gap: 60px;
 }
 
 .media  {
     flex-direction: column;
     align-items: center;
+    flex: 0 1 200px;
+    gap:10px;
     
 }
 
 .info-list .placeholder {
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     border: 5px solid #3882f6;
     border-radius: 10%;
 }
